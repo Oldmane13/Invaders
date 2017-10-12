@@ -1,0 +1,4 @@
+/Users/alexb/Documents/giffgaff Invaders /Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/alexb/Documents/giffgaff Invaders /Temp/bin/Debug/Assembly-CSharp.dll
+/Users/alexb/Documents/giffgaff Invaders /obj/Debug/Assembly-CSharp.dll
+/Users/alexb/Documents/giffgaff Invaders /obj/Debug/Assembly-CSharp.dll.mdb

@@ -5,12 +5,14 @@ using UnityEngine;
 public class SpaceshipMovement : MonoBehaviour {
 
 	public float maxPos = 2.43f;
-	public float shipSpeed;
+	private float shipSpeed;
 
 	Vector3 position;
 	Rigidbody2D rb;
 
 	void Awake(){
+
+		shipSpeed = Mathf.Lerp(shipSpeed, 7, Time.deltaTime);
 
 		rb = GetComponent<Rigidbody2D> ();
 	}
@@ -31,18 +33,19 @@ public class SpaceshipMovement : MonoBehaviour {
 
 	void AccelerometerMove(){
 
-		float x = Input.acceleration.x;
-		Debug.Log ("X = " + x);
+//		float x = Input.acceleration.x;
+		//Debug.Log ("X = " + x);
 
+		transform.Translate(Input.acceleration.x, 0, 0);
 
-		if (x < -0.1f) {
-			MoveLeft ();
-		} else if (x > 0.1f) {
-			MoveRight ();	
-		} 
-		else {
-			SetVelocityZero();
-		}
+//		if (x < -0.1f) {
+//			MoveLeft ();
+//		} else if (x > 0.1f) {
+//			MoveRight ();	
+//		} 
+//		else {
+//			SetVelocityZero();
+//		}
 
 	}
 

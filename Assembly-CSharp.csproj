@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9707F459-EEBF-C01F-F451-612F23B50EBF}</ProjectGuid>
+    <ProjectGuid>{6C0EFE21-F65C-CE96-CFE8-9215FCD21F0A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,7 +46,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\EnemyAI.cs" />
+     <Compile Include="Assets\GameController.cs" />
+     <Compile Include="Assets\LaserShooter.cs" />
      <Compile Include="Assets\Parallax.cs" />
+     <Compile Include="Assets\ProjectileMovement.cs" />
      <Compile Include="Assets\SpaceshipMovement.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>

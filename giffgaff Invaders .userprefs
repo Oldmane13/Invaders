@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SpaceshipMovement.cs">
+    <Files>
+      <File FileName="Assets/GameController.cs" Line="34" Column="7" />
+      <File FileName="Assets/SpaceshipMovement.cs" Line="35" Column="1" />
+      <File FileName="Assets/LaserShooter.cs" Line="1" Column="1" />
+      <File FileName="Assets/Parallax.cs" Line="1" Column="1" />
+      <File FileName="Assets/ProjectileMovement.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
